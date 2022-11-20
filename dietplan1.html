@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\SAHASRI\Desktop\css\css\dietplan1.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body id="barba-wrapper" class="" aria-live="polite">
+<div class="barba-container   hide-barcode-scanner" data-namespace="loggedOutSpace" data-keep-awake="false">
+
+<div class="row">
+  <div id="basic-meal-plan-body" class="col-xs-12 seo-page col-md-8 col-md-offset-2 tab-pane fade active in">
+
+      <div class="mp-cont">
+        <h1 class="seo-h1 text-center" style="font-family : 'Poppins' , sans-serif;">
+          Customizable Diabetic Meal Plan
+        </h1>
+        <h2 style="color:white">
+       <center>
+          Tell us about your Health Experiences!!
+       </center>
+       </h2>
+
+ <div class="mp-card" id="meal-planner-description">
+          <form id="mini-app-meal-form" class="ajax-form focus-form" action="/update_meal_plan_prof" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="cJTl2pYxLj4hvyssg+dmohJw++2JCEfcQAELA/RRHn5KlVI8WZH/vRmbpyyAARX+agDFDQLU4gSMj7MrVlmp3w==">
+
+ <div class="tab-content">
+      <div id="basic-settings" class="modal-form tab-pane fade pr0 faint-labels active in">
+        <div class="form-row">
+              <div class="label-block">
+                <label>Gender</label>
+                <select class="form-control parent-field" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;rec_cals&quot;]" name="user[gender]" id="user_gender"><option selected="selected" value="false">Male</option>
+<option value="true">Female</option></select>
+              </div>
+ <div class="label-block">
+            <label>Age</label>
+            <input class="form-control number-input disallow-blank limit-pattern parent-field" data-pattern="[0-9]+" data-errors="#age-errors" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;rec_cals&quot;]" type="number" value="30" name="user[age]" id="user_age">
+            <div id="age-errors" class="form-error"></div>
+          </div>
+          <div class="label-block">
+            <label>Type</label>
+            <select class="form-control parent-field" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;height&quot;,&quot;weight&quot;]" name="user[unit_preference]" id="user_unit_preference"><option selected="selected" value="0">Pre-diabetes</option>
+<option value="1">Type-1</option>
+<option value="2">Type-2</option>
+<option value="3">gestational</option></select>
+          </div>
+        </div>
+        <div class="form-row" id="mini-app-ht-wt">
+              <div class="label-block">
+      <label>Height</label>
+      <input class="form-control number-input inline-field disallow-blank parent-field" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;rec_cals&quot;]" type="number" value="5" name="user[foot_height]" id="user_foot_height"> ft
+      <input class="form-control number-input inline-field disallow-blank parent-field" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;rec_cals&quot;]" type="number" value="8.0" name="user[inch_height]" id="user_inch_height"> in
+      <input disabled="disabled" data-errors="#height-errors" type="hidden" value="68" name="user[height]" id="user_height">
+      <div id="height-errors" class="form-error"></div>
+    </div>
+    <div class="label-block">
+      <label>Weight</label>
+      <input class="form-control number-input disallow-blank parent-field" data-errors="#weight-errors" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;rec_cals&quot;]" type="number" value="0.0" name="user[current_weight]" id="user_current_weight"> kg
+      <div id="weight-errors" class="form-error"></div>
+    </div>
+
+        <div class="form-row">
+         <div class="label-block">
+      <label>Diabetic levels</label>
+      <input class="form-control number-input disallow-blank parent-field" data-errors="#levels-errors" data-url="/refresh_plan_prof_fields" data-dependents="[&quot;rec_cals&quot;]" type="number" value="0.0" name="user[current_diabeticlevels]" id="user_current_diabeticlevels"> mg/dL
+      <div id="diabeticlevels-errors" class="form-error"></div>
+    </div>
+
+</div>
+       <div class="form-row">
+              <label>Health Problems</label>
+              <input id="excluded-keywords-field" type="hidden" name="user[excluded_keywords]">
+              <div style="white-space: normal; max-width: 400px;">
+                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="dairy1">
+                        A
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="dairy2">
+                        B
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="egg1">
+                        C
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="peanut1">
+                        D
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="tree_nuts">
+                        E
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="soy1">
+                        F
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="gluten1">
+                        G
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="fish1">
+                        H
+</div>                    <div class="btn btn-default mb5 text-list-btn " data-target="#excluded-keywords-field" data-value="shellfish1">
+                        I
+</div>              </div>
+            </div>
+
+      </div>
+ <input type="hidden" name="new_plan" id="new_plan" value="true">
+        <div class="text-center">
+            <button class="btn transparent" id="generate-button"><a href="C:\Users\SAHASRI\Desktop\Diahood\dietplan2.html">Next</a></button>
+        </div>
+<script src="https://d5hfk4gzp9539.cloudfront.net/assets/application-4acf18c53fafaa7f920ddfb7a7b606a2a2ce86225a554849f855a088a4a23051.js" async="async"></script>
+</body>
+</html>
